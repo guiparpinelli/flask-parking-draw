@@ -1,0 +1,4 @@
+flask
+sqlalchemy
+pdfplumber
+python-dotenv

@@ -1,7 +1,7 @@
 ## Install dependencies
 
 ```sh
-make install
+make virtualenv
 ```
 
 ## Running the app
