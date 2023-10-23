@@ -5,7 +5,7 @@
     <div class="row gy-2 d-grid gap-2 col-6 mx-auto">
         {% for result in results %}
         <button type="button" class="btn btn-primary btn-lg"
-            onclick="window.location.href='{{ url_for( 'by_year', year=result.year ) }}'">{{ result.year }}</button>
+            onclick="window.location.href='{{ url_for( 'by_year', year=result.year ) }}'">Sorteio de {{ result.year - 1 }}, vagas válidas para {{ result.year }}</button>
         {% endfor %}
         <div class="d-grid gap-2 col-6 mx-auto">
             <button class="btn btn-secondary btn-lg" type="button"
